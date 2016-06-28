@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma";
+}
+
+.wrapper{
+    background-image: url( "../img/background.png" );
+    height: 1181px;
+}
+
+.logo{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    z-index: 1;
+    background-image: url( "../img/palm-tree.png" );
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 179px;
+
+}
+
+.logo-text{
+    position: absolute;
+    left: -190px;
+    top: 110px;
+    z-index: 2;
+    background-image: url( "../img/logo.png" );
+    background-repeat: no-repeat;
+    height: 54px;
+    width: 375px;
+}
+
+p{
+    position: relative;
+    left: 1122px;
+    top: 139px;
+    color: white;
+}
+
+#logo-asia{
+    top: 65px;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+}
+
+section li{
+    position: relative;
+    list-style: none;
+    left: 92px;
+    top: 182px;
+    float: left;
+    margin: 0 3px 70px;
+}
+
+img{
+    box-shadow: 0 0 10px 5px black;
+    border: 5px solid #7e7e7e;
+    border-radius: 2%;
+}
+
+li:nth-child(3n+1){
+    clear: both;
+}
+
+.country{
+    text-align: center;
+    color:white;
+    font-size: 18px;
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+}
+
+.contacts{
+    float:right;
+    position: relative;
+    top: 160px;
+    right: 110px;
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+#contact{
+    font-size: 12px;
+}
+
+footer{
+    position: absolute;
+    top: 1120px;
+    left: 590px;
+    font-size: 12px;
+    color: rgb(230, 230, 230);
+    line-height: 1.2;
+}
