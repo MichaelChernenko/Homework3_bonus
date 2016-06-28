@@ -18,12 +18,11 @@
     background-repeat: no-repeat;
     height: 210px;
     width: 179px;
-
 }
 
 .logo-text{
     position: absolute;
-    left: -190px;
+    left: -201px;
     top: 110px;
     z-index: 2;
     background-image: url( "../img/logo.png" );
